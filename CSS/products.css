@@ -1,25 +1,395 @@
-.cards{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*HEADER-NAV-LOGO*/
+header{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    margin: auto;
-    margin-top: 20%;
-    margin-right: 13%;
-    gap: 10%; 
-  
+    gap: 2%;
+    background-color:#97b397;
+}
+
+header img{
+    width: 100px;
+    height: 90px;
+}
+
+header h4{
+ font-size: small;
+ letter-spacing: 3px;
+ color: rgb(63, 115, 85);
+
+
+}
+
+.navbar{
+    display: flex;
+    gap: 40%;
+    margin-left: 20%;
+}
+header a{
+    text-decoration: none;
+    color: rgb(63, 115, 85);
+    font-weight: 700;
+}
+
+header h5{
+    margin-left: 36%;
+    border: 2px solid rgb(62, 131, 28);
+    background-color: rgb(75, 86, 58);
+    color: rgb(63, 115, 85);
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    padding-top: 1%;
+   
+}
+
+nav :hover{
+    color: rgb(97, 176, 97);
+    cursor: pointer;
+}
+
+
+#log :hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(37, 86, 40);
+}
+/*products cards design*/
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
    
 }
 
 
-.card3{
-    border: 2px solid black;
-    
-    border-radius: 4px;width: 350px;
-    height: 1200px;
-    width: 1000;
-    padding: 3%;
 
-    background-color: rgb(186, 195, 186)
 
+.card1 h3{
+    color: rgb(62, 102, 62);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cards1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+    margin-top: 16%;
+}
+.card1 img{
+    width: 410px;
+    height: 450px;
+   
+}
+.card1 h6{
+    border: 2px solid rgb(48, 124, 17);
+    border-radius: 6px;
+    font-size: medium;
+    width: 110px;
+    height: 30px;
+    color: rgb(62, 102, 62);
+    margin: auto;
+    background-color: #cce0cc;
+    margin-top: 8%;
     
 }
+.card1{
+    border: 2px solid black;
+    width: 430px;
+    height: 550px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 4px
+
+
+}
+
+.card1p{
+    border: 2px solid black;
+    width: 550px;
+    height: 350px;
+    text-align: center;
+    padding: 3%;
+    border-radius: 4px;
+    padding: 1%;
+    margin-top: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #fff;
+    background-color: #97b397;
+}
+
+
+.card2 h3{
+    color: rgb(62, 102, 62);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cards2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+.card2 img{
+    width: 410px;
+    height: 450px;
+   
+}
+.card2 h6{
+    border: 2px solid rgb(48, 124, 17);
+    border-radius: 6px;
+    font-size: medium;
+    width: 110px;
+    height: 30px;
+    color: rgb(62, 102, 62);
+    margin: auto;
+    background-color: #cce0cc;
+    margin-top: 8%;
+    
+}
+.card2{
+    border: 2px solid black;
+    width: 430px;
+    height: 550px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 4px
+
+}
+
+.card2p{
+    border: 2px solid black;
+    width: 550px;
+    height: 350px;
+    text-align: center;
+    padding: 3%;
+    border-radius: 4px;
+    padding: 1%;
+    margin-top: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #fff;
+    background-color: #97b397;
+}
+
+
+.card3 h3{
+    color: rgb(62, 102, 62);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cards3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+.card3 img{
+    width: 410px;
+    height: 450px;
+   
+}
+.card3 h6{
+    border: 2px solid rgb(48, 124, 17);
+    border-radius: 6px;
+    font-size: medium;
+    width: 110px;
+    height: 30px;
+    color: rgb(62, 102, 62);
+    margin: auto;
+    background-color: #cce0cc;
+    margin-top: 8%;
+    
+}
+.card3{
+    border: 2px solid black;
+    width: 430px;
+    height: 550px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 4px
+
+}
+
+.card3p{
+    border: 2px solid black;
+    width: 550px;
+    height: 350px;
+    text-align: center;
+    padding: 3%;
+    border-radius: 4px;
+    padding: 1%;
+    margin-top: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #fff;
+    background-color: #97b397;
+}
+
+
+.card4 h3{
+    color: rgb(62, 102, 62);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cards4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+.card4 img{
+    width: 410px;
+    height: 450px;
+   
+}
+.card4 h6{
+    border: 2px solid rgb(48, 124, 17);
+    border-radius: 6px;
+    font-size: medium;
+    width: 110px;
+    height: 30px;
+    color: rgb(62, 102, 62);
+    margin: auto;
+    background-color: #cce0cc;
+    margin-top: 8%;
+    
+}
+.card4{
+    border: 2px solid black;
+    width: 430px;
+    height: 550px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 4px
+
+}
+
+.card4p{
+    border: 2px solid black;
+    width: 550px;
+    height: 350px;
+    text-align: center;
+    padding: 3%;
+    border-radius: 4px;
+    padding: 1%;
+    margin-top: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #fff;
+    background-color: #97b397;
+}
+
+
+.card6 h3{
+    color: rgb(62, 102, 62);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cards6{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+.card6 img{
+    width: 410px;
+    height: 450px;
+   
+}
+.card6 h6{
+    border: 2px solid rgb(48, 124, 17);
+    border-radius: 6px;
+    font-size: medium;
+    width: 110px;
+    height: 30px;
+    color: rgb(62, 102, 62);
+    margin: auto;
+    background-color: #cce0cc;
+    margin-top: 8%;
+    
+}
+.card6{
+    border: 2px solid black;
+    width: 430px;
+    height: 550px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 4px
+
+}
+
+.card6p{
+    border: 2px solid black;
+    width: 550px;
+    height: 350px;
+    text-align: center;
+    padding: 3%;
+    border-radius: 4px;
+    padding: 1%;
+    margin-top: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #fff;
+    background-color: #97b397;
+}
+
+
+
+.card5
+ h3{
+    color: rgb(62, 102, 62);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cards5{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+.card5 img{
+    width: 410px;
+    height: 450px;
+   
+}
+.card5 h6{
+    border: 2px solid rgb(48, 124, 17);
+    border-radius: 6px;
+    font-size: medium;
+    width: 110px;
+    height: 30px;
+    color: rgb(62, 102, 62);
+    margin: auto;
+    background-color: #cce0cc;
+    margin-top: 8%;
+}
+.card5{
+    border: 2px solid black;
+    width: 430px;
+    height: 550px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 4px
+
+}
+
+.card5p{
+    border: 2px solid black;
+    width: 550px;
+    height: 350px;
+    text-align: center;
+    padding: 3%;
+    border-radius: 4px;
+    padding: 1%;
+    margin-top: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #fff;
+    background-color: #97b397;
+}
+
