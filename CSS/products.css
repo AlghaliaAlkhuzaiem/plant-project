@@ -1,0 +1,25 @@
+.cards{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    margin-top: 20%;
+    margin-right: 13%;
+    gap: 10%; 
+  
+   
+}
+
+
+.card3{
+    border: 2px solid black;
+    
+    border-radius: 4px;width: 350px;
+    height: 1200px;
+    width: 1000;
+    padding: 3%;
+
+    background-color: rgb(186, 195, 186)
+
+    
+}
