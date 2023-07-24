@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #34482e;
+}
+/*HEADER-NAV-LOGO*/
+header{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    background-color:#fff;
+}
+
+header img{
+    width: 100px;
+    height: 90px;
+}
+
+header h4{
+ font-size: small;
+ letter-spacing: 3px;
+ color: rgb(63, 115, 85);
+
+
+}
+
+.navbar{
+    display: flex;
+    gap: 40%;
+    margin-left: 20%;
+}
+header a{
+    text-decoration: none;
+    color: rgb(63, 115, 85);
+    font-weight: 700;
+}
+
+header h5{
+    margin-left: 36%;
+    border: 2px solid rgb(62, 131, 28);
+    background-color: rgb(75, 86, 58);
+    color: rgb(63, 115, 85);
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    padding-top: 1%;
+   
+}
+
+nav :hover{
+    color: rgb(97, 176, 97);
+    cursor: pointer;
+}
+
+
+#log :hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(37, 86, 40);
+}
+
+/*cards design*/
+
+.cards{
+    display: flex;
+    
+}
+
+.story-card{
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  padding: 1%;
+  margin-top: 10%;
+  border: 2px solid rgb(33, 32, 32);  
+  border-radius: 3px;
+  width: 550px;
+  height: 589px;
+  background-image: url('../IMG/story.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.story h2{
+   word-spacing: 5px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.story{
+    margin-top: 19%;
+    border: 1px solid rgb(41, 56, 37);
+    width: 650px;
+    color: #334a2f;
+    background-color: rgb(215, 224, 213);
+    height:300px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 3px;
+}
+
+.story:hover{
+    background-color: #768571;
+    cursor: pointer;
+    color:aliceblue;
+}
+
+
+.story p{
+    margin-top: 3%;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
