@@ -398,3 +398,9 @@ nav :hover{
     margin-top: 10%;
 
 }
+
+.container h6:hover{
+    cursor: pointer;
+    color:#f8fbf8;
+    background-color: #546d4d;
+}

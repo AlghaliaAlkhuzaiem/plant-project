@@ -59,9 +59,11 @@ nav :hover{
    
 }
 
-#log :hover{
+h5 :hover{
     cursor: pointer;
-    color: #a6c09e;
+    color: #309511;
+    font-size: medium;
+    
 }
 
 /*cards design*/
@@ -118,6 +120,8 @@ nav :hover{
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
 }
+
+
 
 /*footer*/
 
@@ -239,6 +243,13 @@ nav :hover{
     margin-top: 25px;
   }
   
-  
+.footer-center :hover{
+      color: #fff;
+      cursor: pointer;
+  }
 
+  .footer-right  :hover{
+    cursor: pointer;
+    color: #fff;
+  }
   
