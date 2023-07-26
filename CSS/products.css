@@ -104,6 +104,9 @@ nav :hover{
     margin: auto;
     background-color: #cce0cc;
     margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .card1{
@@ -112,7 +115,8 @@ nav :hover{
     height: 550px;
     text-align: center;
     padding: 1%;
-    border-radius: 4px
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 
 }
@@ -157,6 +161,10 @@ nav :hover{
     margin: auto;
     background-color: #cce0cc;
     margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 .card2{
@@ -165,7 +173,8 @@ nav :hover{
     height: 550px;
     text-align: center;
     padding: 1%;
-    border-radius: 4px
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 }
 
@@ -209,6 +218,9 @@ nav :hover{
     margin: auto;
     background-color: #cce0cc;
     margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .card3{
@@ -217,7 +229,8 @@ nav :hover{
     height: 550px;
     text-align: center;
     padding: 1%;
-    border-radius: 4px
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 }
 
@@ -261,6 +274,9 @@ nav :hover{
     margin: auto;
     background-color: #cce0cc;
     margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .card4{
@@ -269,7 +285,8 @@ nav :hover{
     height: 550px;
     text-align: center;
     padding: 1%;
-    border-radius: 4px
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 }
 
@@ -313,6 +330,10 @@ nav :hover{
     margin: auto;
     background-color: #cce0cc;
     margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 .card6{
@@ -321,7 +342,8 @@ nav :hover{
     height: 550px;
     text-align: center;
     padding: 1%;
-    border-radius: 4px
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 }
 
@@ -367,6 +389,10 @@ nav :hover{
     margin: auto;
     background-color: #cce0cc;
     margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .card5{
     border: 2px solid black;
@@ -374,7 +400,8 @@ nav :hover{
     height: 550px;
     text-align: center;
     padding: 1%;
-    border-radius: 4px
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 }
 

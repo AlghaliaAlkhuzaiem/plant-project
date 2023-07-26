@@ -164,4 +164,8 @@ h2{
   text-align: center;
   margin-top: 4%;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    
 }

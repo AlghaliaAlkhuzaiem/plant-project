@@ -56,6 +56,7 @@ header h5{
 nav :hover{
     color: rgb(97, 176, 97);
     cursor: pointer;
+  
    
 }
 
@@ -88,8 +89,10 @@ h5 :hover{
   background-image: url('../IMG/story.png');
   background-size: 100%;
   background-repeat: no-repeat;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .story h2{
+  margin-top: 3%;
    word-spacing: 5px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -104,6 +107,7 @@ h5 :hover{
     text-align: center;
     padding: 1%;
     border-radius: 3px;
+   
 }
 
 .story:hover{
@@ -114,7 +118,7 @@ h5 :hover{
 
 
 .story p{
-    margin-top: 3%;
+    margin-top: 7%;
     letter-spacing: 2px;
     word-spacing: 2px;
     font-size: large;
